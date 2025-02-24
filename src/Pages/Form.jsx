@@ -23,7 +23,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(postApi(formData));
-    navigate("/");
+    navigate("/")
   };
 
   return (
