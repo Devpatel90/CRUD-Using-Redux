@@ -13,7 +13,7 @@ export const postApi = createAsyncThunk("api/postApi", async (formData) => {
 
 export const deleteApi = createAsyncThunk("api/deleteApi", async (id) => {
   await axios.delete(`http://localhost:3000/products/${id}`);
-  return id; // Returning id to remove it from the state
+  return id;
 });
 
 export const editApi = createAsyncThunk(
@@ -39,9 +39,6 @@ const ApiSlice = createSlice({
       .addCase(getApi.fulfilled, (state, action) => {
         state.loading = false;
         state.data = action.payload;
-      })
-      .addCase(getApi.rejected, (state) => {
-        state.loading = false;
       })
       .addCase(postApi.fulfilled, (state, action) => {
         state.data.push(action.payload);

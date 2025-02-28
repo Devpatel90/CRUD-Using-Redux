@@ -4,22 +4,15 @@
       "id": "a9bd",
       "url": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
       "title": "Acer Monitor",
-      "price": "999",
+      "price": "1500",
       "category": "Electronics"
     },
     {
       "id": "5848",
       "url": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
       "title": "Biker Jacket",
-      "price": "89",
-      "category": "Men's Clothing"
-    },
-    {
-      "id": "148b",
-      "url": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-      "title": "Pierced Owl",
-      "price": "899",
-      "category": "Jewellery"
+      "price": "150",
+      "category": "Women's Clothing"
     }
   ]
 }

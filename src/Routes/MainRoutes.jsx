@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
+import Home from "../Pages/Home";
 import Form from "../Pages/Form";
-// import EditForm from "../Pages/EditForm";
+import EditForm from "../Pages/EditForm";
 
 function MainRoutes() {
   return (
@@ -9,7 +9,7 @@ function MainRoutes() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/addForm" element={<Form />} />
-          {/* <Route path="/editForm/:id" element={<EditForm />} /> */}
+          <Route path="/editForm/:id" element={<EditForm />} />
       </Routes>
     </>
   );
